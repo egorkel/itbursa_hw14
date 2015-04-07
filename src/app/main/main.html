@@ -1,0 +1,6 @@
+<div ng-controller="mainCtrl as main">
+  <input type="text" ng-model="main.inputVar" ng-change="main.check()" jb-mask="99:99">
+  <div>model: {{main.inputVar}}</div>
+  <button ng-click="main.clickChange()">Change model</button>
+  <input type="text" ng-model="main.testVar">
+</div>

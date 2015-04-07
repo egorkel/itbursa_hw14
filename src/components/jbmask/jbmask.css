@@ -1,0 +1,85 @@
+.jbcontainer {
+  position: relative;
+  width: 80%;
+  height: 210px;
+  margin: 30px auto;
+  /*border: solid red;*/
+}
+
+.animate {
+  transition: left 4.5s;
+  transition-timing-function: linear;
+}
+
+.jbitem1 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 10px;
+  background-color: #add8e6;
+  z-index: 900;
+}
+.jbitem2 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 170px;
+  background-color: #add8e6;
+  z-index: 1001;
+}
+.jbitem3 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 330px;
+  background-color: #add8e6;
+  z-index: 1001;
+}
+.jbitem4 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 490px;
+  background-color: lightgreen;
+  z-index: 1001;
+}
+.jbitem5 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 650px;
+  background-color: #add8e6;
+  z-index: 1001;
+}
+.jbitem6 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 810px;
+  background-color: #add8e6;
+  z-index: 1001;
+}
+.jbitem7 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 970px;
+  background-color: #add8e6;
+  z-index: 1001;
+}
+
+.jbimg {
+  width: 72px;
+  margin: 10px auto;
+}
+
+.jbphone {
+  text-align: center;
+}
+
+.jbname {
+  text-align: center;
+  margin: 5px;
+  font-weight: bold;
+  color: red;
+}
